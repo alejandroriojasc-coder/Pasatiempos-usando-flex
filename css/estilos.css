@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* HEADER */
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* SECCIONES */
+section {
+    margin: 20px;
+}
+
+/* TARJETAS */
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    background: peachpuff;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* IMAGEN CODIGO */
+.codigo {
+    width: 300px;
+    margin-top: 10px;
+    border: 2px solid gray;
+}
+
+/* FLEX 1 */
+.flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* FLEX 2 */
+.flex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+/* FLEX 3 */
+.flex3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* FLEX 4 */
+.flex4 {
+    display: flex;
+    justify-content: space-evenly;
+}
